@@ -1,0 +1,21 @@
+{
+  "name": "vocdoni-sdk-demo-v0.0.2-alpha",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify -p esmify ./src.js -o ./public/bundle.js",
+    "start": "http-server ./public"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vocdoni/sdk": "^0.0.1-alpha"
+  },
+  "devDependencies": {
+    "browserify": "^17.0.0",
+    "esmify": "^2.1.1",
+    "http-server": "^14.1.1"
+  }
+}
